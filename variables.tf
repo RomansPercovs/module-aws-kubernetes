@@ -1,6 +1,7 @@
 variable "aws_region" {
-  type    = string
-  default = "eu-west-2"
+  description = "AWS region ID for deployment (e.g. eu-west-1)"
+  type        = string
+  default     = "eu-west-2"
 }
 
 variable "env_name" {
